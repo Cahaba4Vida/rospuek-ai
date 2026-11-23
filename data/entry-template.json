@@ -1,0 +1,20 @@
+{
+  "id": "dream-example-2026",
+  "title": "A descriptive title",
+  "date": "2026-11-22",
+  "category": "Dreams",
+  "tags": ["symbolism"],
+  "journal": "Notebook One",
+  "pages": [
+    {"number": 1, "text": "Exact original wording...", "scan": ""}
+  ],
+  "expandedNarrative": "Optional expanded description of the dream or spiritual experience.",
+  "interpretation": "Possible interpretation, clearly labeled as an interpretation.",
+  "artwork": [],
+  "privacyNotes": "Internal review notes; never publicly displayed.",
+  "review": {
+    "transcriptionApproved": false,
+    "privacyApproved": false,
+    "expansionApproved": false
+  }
+}

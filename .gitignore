@@ -1,0 +1,9 @@
+.netlify/
+.DS_Store
+node_modules/
+dist/
+.env
+.env.*
+admin-secret*
+*-admin-secret.txt
+zachs-dream-journal-review/

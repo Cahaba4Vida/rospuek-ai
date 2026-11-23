@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#080914" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <meta name="description" content="Zach's Dream Journal is a growing public collection of dreams, spiritual revelations, reflections and personal experiences, with original transcriptions and contextual essays." />
+  <title>Zach's Dream Journal | Dreams, Spiritual Revelations & Reflections</title>
+  <link rel="canonical" href="https://zachs-dream-journal.netlify.app/" />
+  <meta name="author" content="Zach Edwards" />
+  <meta name="keywords" content="ZachsDreamJournal, Zach's Dream Journal, dreams journal, spiritual revelations, dream reflections, personal journal, Rospuek" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Zach's Dream Journal" />
+  <meta property="og:title" content="Zach's Dream Journal | Dreams & Spiritual Revelations" />
+  <meta property="og:description" content="An evolving archive of dreams, spiritual experiences, insights and reflections, curated by Zach Edwards." />
+  <meta property="og:url" content="https://zachs-dream-journal.netlify.app/" />
+  <meta property="og:image" content="https://zachs-dream-journal.netlify.app/assets/galaxies/violet_and_blue_nebula_panorama.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zach's Dream Journal" />
+  <meta name="twitter:description" content="Dreams, spiritual revelations and reflections in an evolving public journal." />
+  <meta name="twitter:image" content="https://zachs-dream-journal.netlify.app/assets/galaxies/violet_and_blue_nebula_panorama.webp" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"Zach's Dream Journal","alternateName":"ZachsDreamJournal","url":"https://zachs-dream-journal.netlify.app/","description":"Dreams, spiritual revelations, personal experiences and reflections curated by Zach Edwards.","author":{"@type":"Person","name":"Zach Edwards"},"inLanguage":"en-US","isAccessibleForFree":true}</script>
+  <link rel="icon" type="image/svg+xml" href="/assets/rospuek-mark.svg" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="cosmos" aria-hidden="true"></div>
+  <div class="cosmos-shade" aria-hidden="true"></div>
+  <div class="site-shell" id="shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#/" aria-label="Zach's Dream Journal home">
+        <img class="brand-mark" src="/assets/rospuek-mark.svg" alt="" />
+        <span class="brand-type"><strong>ROSPUEK</strong><small>ZACH'S DREAM JOURNAL</small></span>
+      </a>
+      <div class="sidebar-rule"></div>
+      <p class="nav-label">LIBRARY</p>
+      <nav class="nav-main" id="mainNav" aria-label="Main navigation">
+        <a class="nav-link" href="#/" data-nav="home"><span class="nav-icon">◈</span> Overview</a>
+        <a class="nav-link" href="#/archive" data-nav="archive"><span class="nav-icon">▤</span> All entries <span id="entryCount" class="nav-count">0</span></a>
+        <a class="nav-link" href="#/timeline" data-nav="timeline"><span class="nav-icon">◷</span> Timeline</a>
+        <a class="nav-link" href="#/favorites" data-nav="favorites"><span class="nav-icon">☆</span> Bookmarks</a>
+      </nav>
+      <div class="sidebar-rule"></div>
+      <div class="nav-row"><p class="nav-label">CATEGORIES</p></div>
+      <nav id="categoryNav" class="categories-nav" aria-label="Journal categories"></nav>
+      <div class="sidebar-bottom">
+        <div class="privacy-chip"><span class="status-orb"></span> PUBLIC DREAM JOURNAL</div>
+        <p class="sidebar-foot">Your words, preserved in time.</p>
+      </div>
+    </aside>
+
+    <div class="main-column">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+          <span class="breadcrumb" id="breadcrumb">THE WRITTEN ARCHIVE <span class="crumb-slash">/</span> OVERVIEW</span>
+        </div>
+        <div class="topbar-right">
+          <button class="search-trigger" id="searchTrigger" aria-label="Search the journal"><span class="search-symbol">⌕</span> <span>Search the archive</span><kbd>⌘ K</kbd></button>
+          <span class="topbar-separator"></span>
+          <button class="icon-button" id="themeHint" title="Display settings" aria-label="Display settings">Aa</button>
+        </div>
+      </header>
+      <main id="view" class="view" tabindex="-1" aria-live="polite"></main>
+      <footer class="footer"><span>ROSPUEK <span class="foot-dot">✧</span> ZACH'S DREAM JOURNAL</span><span><a href="/journal/">PUBLIC ENTRIES</a> · <a href="/about/">ABOUT THE JOURNAL</a></span></footer>
+    </div>
+  </div>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <dialog class="search-dialog" id="searchDialog" aria-label="Search journal entries">
+    <div class="dialog-heading"><span>⌕</span><input id="searchInput" type="search" autocomplete="off" placeholder="Search entries, pages, tags..." aria-label="Search entries"/><button class="escape-key" id="closeSearch">ESC</button></div>
+    <div class="search-results" id="searchResults"></div>
+    <div class="dialog-footer">Search matches titles, transcription text, and tags</div>
+  </dialog>
+  <dialog class="settings-dialog" id="settingsDialog" aria-label="Reading preferences">
+    <div class="settings-title"><strong>Reading preferences</strong><button class="close-button" id="closeSettings" aria-label="Close settings">✕</button></div>
+    <label class="settings-label" for="fontSlider">Page text size <span id="fontValue">19px</span></label>
+    <input id="fontSlider" type="range" min="16" max="26" step="1" value="19" />
+    <div class="settings-tip">Saved on this device only.</div>
+  </dialog>
+  <noscript><section style="max-width:900px;margin:2rem auto;padding:2rem;color:#f4efff;background:#10111f;border-radius:12px"><h1>Zach's Dream Journal</h1><p>A public collection of original journal transcriptions, dreams, spiritual experiences, interpretations, and reflections. This archive is being prepared for its first real entries.</p><p><a href="/about/">Read about the journal and its approach</a></p></section></noscript>
+  <script src="/app.js" defer></script>
+</body>
+</html>

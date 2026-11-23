@@ -1,0 +1,16 @@
+{
+  "name": "Zach's Dream Journal",
+  "short_name": "Dream Journal",
+  "description": "A public collection of dreams, spiritual revelations, and reflections.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080914",
+  "theme_color": "#080914",
+  "icons": [
+    {
+      "src": "/assets/rospuek-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

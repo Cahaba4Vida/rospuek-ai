@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "id": "demo-001",
+      "title": "The space between things",
+      "date": "2026-01-08",
+      "category": "Reflections & Growth",
+      "tags": [
+        "reflection",
+        "perspective"
+      ],
+      "journal": "Sample Notebook",
+      "status": "demo",
+      "pages": [
+        {
+          "number": 1,
+          "text": "There is a kind of quiet that only appears after the day has ended. The unfinished things are still there, but for a moment they are no longer asking for anything.\n\nI want to remember that a day is more than its checklist. There are conversations, details, and small decisions that change what tomorrow becomes."
+        },
+        {
+          "number": 2,
+          "text": "Perhaps the point of keeping a journal isn't to make every day remarkable. It is to notice the days as they happen.\n\nA page can hold something long enough for me to understand it later."
+        }
+      ]
+    },
+    {
+      "id": "demo-002",
+      "title": "A sketch of an idea",
+      "date": "2026-02-14",
+      "category": "Ideas & Symbols",
+      "tags": [
+        "creativity",
+        "projects"
+      ],
+      "journal": "Sample Notebook",
+      "status": "demo",
+      "pages": [
+        {
+          "number": 3,
+          "text": "An idea begins as a rough sketch. The exciting part is not that it is complete, but that it points somewhere new.\n\nTonight I wrote down three versions of the same thought and noticed each one changed how I understood the others."
+        }
+      ]
+    },
+    {
+      "id": "demo-003",
+      "title": "A small promise",
+      "date": "2026-04-22",
+      "category": "Faith & Scripture",
+      "tags": [
+        "gratitude",
+        "values"
+      ],
+      "journal": "Sample Notebook",
+      "status": "demo",
+      "pages": [
+        {
+          "number": 4,
+          "text": "What matters is often quiet. A little courage, a kind word, showing up when no one notices.\n\nI hope that when I read this again, I can see the small promises kept along the way."
+        }
+      ]
+    }
+  ]
+}

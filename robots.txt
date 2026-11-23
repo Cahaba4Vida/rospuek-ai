@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zachs-dream-journal.netlify.app/sitemap.xml

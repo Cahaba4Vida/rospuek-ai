@@ -1,0 +1,8 @@
+{
+  "name": "zachs-dream-journal",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {"@netlify/blobs":"11.1.9"},
+  "scripts":{"check":"node --check app.js && node --check netlify/functions/journal.mjs"}
+}
